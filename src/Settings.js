@@ -21,7 +21,7 @@ function Settings() {
             ></ReactSlider>
             <label>break: {settingsInfo.breakMinutes}:00</label>
             <ReactSlider 
-            className={"slider green"}
+            className={"slider blue "}
             thumbClassName={"thumb"}
             trackClassName={"track"}
             value={settingsInfo.breakMinutes}
